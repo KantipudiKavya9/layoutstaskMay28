@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .gd{
+        background-color:burlywood;
+        width: 40vw;
+        height: 50vh;
+        margin-left: 30%;
+        margin-top: 5%;
+        
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 30px 100px 100px 100px 100px;
+        grid-template-rows: 40px 70px 80px ;
+        grid-auto-rows: 60px ;
+        gap:10px;
+        justify-content: center;
+
+        
+        
+       }
+       .child{
+        background-color: orange;
+        font-size: 20px;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+       }
+       .c1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color:crimson;
+       }
+       .c5{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: green;
+        
+       }
+       .c6{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: green;
+       }
+       .c7{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        background-color: green;
+       }
+       .c8{
+        /* grid-row-start: 4;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 3; */
+        
+        
+       }
+       .c4{
+        grid-row-start:4; 
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end:3 ; 
+        background-color: gainsboro;
+       }
+       .c11{
+        grid-row-start: 4;
+        grid-row-end: 6;
+        background-color:magenta;
+       }
+       .c12{
+        grid-row-start: 4;
+        grid-row-end: 6;
+        background-color:magenta;
+        
+       }
+       .c13{
+        grid-row-start: 4;
+        grid-row-end: 6;
+        background-color:magenta;
+       }
+       
+
+       
+    </style>
+</head>
+<body>
+    <div class="gd">
+      
+       <div class="child c1"></div>
+       <div class="child c2"></div>
+       <div class="child c3"></div>
+       <div class="child c4"></div>
+       <div class="child c5"></div>
+       <div class="child c6"></div>
+       <div class="child c7"></div>
+       
+    
+       <div class="child c10"></div>
+       <div class="child c11"></div>
+       <div class="child c12"></div>
+       <div class="child c13"></div>
+      
+      
+       
+      
+       
+       
+        
+        </div>
+</body>
+</html>

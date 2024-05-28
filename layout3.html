@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    .gd{
+        background-color:blanchedalmond;
+        height: 30vh;
+        width: 30vw;
+        display: grid;
+        gap: 4px;
+        padding: 4%;
+        justify-content: center;
+        margin-left: 30%;
+        margin-top: 10%;
+        
+        
+        grid-template-columns: 100px 80px 80px 50px 80px 90px 30px;
+        grid-template-rows: 60px 70px 60px 0px;
+        
+    }
+    .cd{
+        background-color: orange;
+        text-align: center;
+        
+
+        
+
+    }
+    .c2{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-column-end: 4;
+        background-color: blueviolet;
+    }
+    .c3{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end:4 ;
+        background-color: brown;
+    }
+    .c6{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-end: 5;
+        background-color: cornflowerblue;
+        
+    }
+    .c9{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    
+        
+    }
+    .c5{
+        grid-row-start: 1;
+        grid-row-end: 4;
+        background-color:forestgreen;
+    }
+    .c7{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-row-end: 4;
+        background-color: deeppink;
+    }
+    .c8{
+        grid-row-start: 1;
+        grid-row-end: 4;  
+        background-color: orchid;
+    }
+    </style>
+</head>
+<body>
+    <div class="gd">
+       <div class="cd c1">1</div>
+       <div class="cd c2">2</div>
+       <div class="cd c3">3</div>
+       <div class="cd c4">4</div>
+       <div class="cd c5">5</div>
+       <div class="cd c6">6</div>
+       <div  class="cd c7">7</div>
+       <div  class="cd c8">8</div>
+       
+    
+    </div>
+</body>
+</html>
